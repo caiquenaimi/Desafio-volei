@@ -1,32 +1,85 @@
-
-body {
-    background-color: whitesmoke;
+/*Título Principal*/
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
 }
 
+
+/* Article principal(separando as divs igualadamentes)*/
 article {
     display: flex;
 }
 
 
+/* divs(Alterações gerais e separadas) */
 div {
-    width: 28%;
+    width: 33%;
     text-align: center;
-    background-color: white;
-    margin: auto;
-}
-
-input {
+    border-radius: 10px;
     margin: 10px;
 }
+#equipe1 {
+    background-color: #e08af6;
+}
+#equipe2 {
+    background-color: #908fe2;
+}
+#pontos {
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
 
-p   {
-    text-align: left;
+
+/* Textos dentro das divs */
+h2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Botões */
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background 0.7s;
+}
+button:hover {
+    transition: background 0.7s;
+    background-color: black;
+    color: white;
+}
+
+
+/* div pontuação atual */
+#pnts {
+    display: flex;
     margin: 5px;
-    margin-left: 6px;
 }
 
-
-h1 {
+#p1, #p2{
+    margin: 15px;
+    font-size: 50px;
+}
+#x{
     text-align: center;
-    margin-bottom: 20px;
+    font-size: 30px;
+    justify-content:center ;
+    align-items: center;
 }
+
+
+

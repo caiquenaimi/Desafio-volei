@@ -1,33 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/main.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <script src="./assets/main.js"></script>
+        <title>site do desafio</title>
+        <link rel="stylesheet" href="./assets/main.js">
+    </head>
 <body>
-    <h1>Lista dupla</h1>
+    <h1>Placar de volei</h1>
     <article>
-        <div>
-            <label for="campoTexto">Digite um valor:</label>
-            <input type="text" id="campoTexto">
-            <button onclick="addEntrada()">Enviar</button>
-            <p id="p1"></p>
+        <div id="equipe1">
+        <h2>Equipe A</h2>
+        <p id="p1s1">set 1 :</p>
+        <p id="p2s1">set 2 :</p>
+        <p id="p3s1">set 3 :</p>
+        <p id="p4s1">set 4 :</p>
+        <p id="p5s1">set 5 :</p>
+        <p id="ganhos1">set ganhos:</p>
+        <div id="buttons">
+            <button onclick="mais1()">+</button>
+            <button onclick="menos1()">-</button>
         </div>
-
-
-
-        <div>
-            <label for="campoTexto">Digite um valor:</label>
-            <input type="text" id="campoTexto2">
-            <button onclick="addEntrada2()">Enviar</button>
-            <p id="p2"></p>
+    </div>
+    <div id="pontos">
+        <div id="pnts">
+            <h2 id="p1">0</h2>
+            <h2 id="x" >X</h2>
+            <h2 id="p2">0</h2>
+        </div>
+    </div>
+    </div>
+        
+    <div id="equipe2">
+        <h2>Equipe <B></B></h2>
+        <p id="p1s2">set 1 :</p>
+        <p id="p2s2">set 2 :</p>
+        <p id="p3s2">set 3 :</p>
+        <p id="p4s2">set 4 :</p>
+        <p id="p5s2">set 5 :</p>
+        <p id="ganhos2">set ganhos:</p>
+        <div id="buttons">
+            <button onclick="mais2()">+</button>
+            <button onclick="menos2()">-</button>
+        </div>
+    </div></article>
+    <h1 id="vencedor">...</h1>
+    <!--<h1>Placar de Vôlei</h1>
+    <article>
+        <div id="equipe1">
+            <h2 class="subt">Equipe 1</h2>
+            <p id="E1SET1">Set 1:</p>
+            <p id="E1SET2">Set 2:</p>
+            <p id="E1SET3">Set 3:</p>
+            <p id="E1SET4">Set 4:</p>
+            <p id="E1SET5">Set 5:</p>
+            <p id="E1Ganhos">Sets Ganhos:</p>
+            <button type="button" onclick="">+</button>
+            <button type="button" onclick="">-</button>
+        </div>
+        <div id="pontos">
+            <h2 class="subt">Placar Atual</h2>
+            <div id="pnts">
+                <h2 id="pntE1">0</h2>
+                <h2 id="x" >X</h2>
+                <h2 id="pntE2">0</h2>
+            </div>
+        </div>
+        <div id="equipe2">
+            <h2 class="subt">Equipe 2</h2>
+            <p id="E2SET1">Set 1:</p>
+            <p id="E2SET2">Set 2:</p>
+            <p id="E2SET3">Set 3:</p>
+            <p id="E2SET4">Set 4:</p>
+            <p id="E2SET5">Set 5:</p>
+            <p id="E2Ganhos">Sets Ganhos:</p>
+            <button type="button" onclick="">+</button>
+            <button type="button" onclick="">-</button>
         </div>
     </article>
+    <h1 id="vencedor">...</h1>-->  
 </body>
-
 </html>
