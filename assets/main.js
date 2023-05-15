@@ -3,7 +3,7 @@ var add = 0;
 var sets = 0;
 var ganhos1 = 0;
 var ganhos2 = 0;
-var maxPoints = 5;
+var maxPoints = 25;
 var contadorA = 1;
 var contadorB = 1;
 
