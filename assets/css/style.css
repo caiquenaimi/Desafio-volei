@@ -1,0 +1,32 @@
+
+body {
+    background-color: whitesmoke;
+}
+
+article {
+    display: flex;
+}
+
+
+div {
+    width: 28%;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+}
+
+input {
+    margin: 10px;
+}
+
+p   {
+    text-align: left;
+    margin: 5px;
+    margin-left: 6px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
